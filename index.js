@@ -1,5 +1,5 @@
 // Register a Service Worker.
-navigator.serviceWorker.register('./service-worker.js');
+navigator.serviceWorker.register('https://www.haorooms.com/post/h5_notification_webpush/service-worker.js');
 
 navigator.serviceWorker.ready
   .then(function (registration) {
