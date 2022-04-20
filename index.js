@@ -1,5 +1,5 @@
 // Register a Service Worker.
-// navigator.serviceWorker.register('service-worker.js');
+navigator.serviceWorker.register('https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js');
 
 navigator.serviceWorker.ready
   .then(function (registration) {
